@@ -1,10 +1,6 @@
-// Other Imports
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import defaultImg from "../../assets/img/interior/default2.jpeg";
-import ImgOne from "../../assets/img/interior/reg1.jpg";
-import ImgTwo from "../../assets/img/interior/reg2.jpg";
-import ImgThree from "../../assets/img/interior/reg3.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import asset from "../../api/helper";
 import { useNavigate } from "react-router";
@@ -347,21 +343,6 @@ export default function Edit() {
               </SumbitWrapper>
             </Form>
           </div>
-          {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
-            <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
-              <ContactImgBox>
-                <img src={ImgOne} alt="office" className="radius6" style={{ objectFit: "cover" }} />
-              </ContactImgBox>
-              <ContactImgBox>
-                <img src={ImgTwo} alt="office" className="radius6" style={{ objectFit: "cover" }} />
-              </ContactImgBox>
-            </div>
-            <div style={{ width: "50%" }}>
-              <div style={{ marginTop: "100px" }}>
-                <img src={ImgThree} alt="office" className="radius6" style={{ objectFit: "cover" }} />
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </Wrapper>

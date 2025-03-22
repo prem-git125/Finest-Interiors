@@ -162,20 +162,7 @@ export default function Header() {
                     offset={-80}
                     onClick={handleSheetsNavigation}
                   >
-                    Your Jobsheets
-                  </Link>
-                </li>
-
-                <li className="semiBold font15 pointer">
-                  <Link
-                    activeClass="active"
-                    style={{ padding: "10px 15px" }}
-                    spy={true}
-                    smooth={true}
-                    offset={-80}
-                    onClick={handleJobsheetNavigation}
-                  >
-                    Job Sheet
+                    Job Sheets
                   </Link>
                 </li>
               </>
